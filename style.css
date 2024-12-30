@@ -1,0 +1,12 @@
+html { background: white; height: 100%; color: black; font-family: sans-serif; }
+body { margin: 1em auto; max-width: 800px; height: 100%; }
+.quote { padding-inline: 1em; margin-inline: -20px; border-left: 4px solid #888; background-color: #eee; padding-block: 0.25em; margin-block: 1em; }
+.quote>p { font-style: italic; }
+.quote>.archived { margin-block: 1em; }
+.quote>ol>li { font-style: italic; }
+nav>ol { margin: 0; }
+#coi, #conspiratorial { padding-bottom: 0.67em; }
+@media (max-width: 832px) {
+  body { max-width: 100%; margin: 1em; }
+  .quote { padding-left: 1em; margin-left: -4px; border-left: 4px solid #888; }
+}
